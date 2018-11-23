@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="common" displayName="common" projectFiles="true">
+      <itemPath>common/Resolve.hpp</itemPath>
+      <itemPath>common/blocking_queue.h</itemPath>
+      <itemPath>common/boost.h</itemPath>
+      <itemPath>common/callbacks.h</itemPath>
+      <itemPath>common/condition.h</itemPath>
+      <itemPath>common/config.h</itemPath>
+      <itemPath>common/count_down_latch.cpp</itemPath>
+      <itemPath>common/count_down_latch.h</itemPath>
+      <itemPath>common/creditudp_bundle.h</itemPath>
+      <itemPath>common/creditudp_poller.cpp</itemPath>
+      <itemPath>common/creditudp_poller.h</itemPath>
+      <itemPath>common/creditudp_transport.cpp</itemPath>
+      <itemPath>common/creditudp_transport.h</itemPath>
+      <itemPath>common/current_thread.h</itemPath>
+      <itemPath>common/endpoint.h</itemPath>
+      <itemPath>common/fixed_str.h</itemPath>
+      <itemPath>common/ib_common_defs.h</itemPath>
+      <itemPath>common/ipcc_message.cpp</itemPath>
+      <itemPath>common/ipcc_message.h</itemPath>
+      <itemPath>common/ipccmsg_dump.cpp</itemPath>
+      <itemPath>common/ipccmsg_dump.h</itemPath>
+      <itemPath>common/ipccmsg_helper.cpp</itemPath>
+      <itemPath>common/ipccmsg_helper.h</itemPath>
+      <itemPath>common/ipccmsg_loop.cpp</itemPath>
+      <itemPath>common/ipccmsg_loop.h</itemPath>
+      <itemPath>common/ipccmsg_mapping.h</itemPath>
+      <itemPath>common/ipccmsg_target.cpp</itemPath>
+      <itemPath>common/ipccmsg_target.h</itemPath>
+      <itemPath>common/log_init.cpp</itemPath>
+      <itemPath>common/log_init.h</itemPath>
+      <itemPath>common/mutex.h</itemPath>
+      <itemPath>common/on_off_switch.h</itemPath>
+      <itemPath>common/server_addr_pack.h</itemPath>
+      <itemPath>common/thread.h</itemPath>
+      <itemPath>common/timer.cpp</itemPath>
+      <itemPath>common/timer.h</itemPath>
+      <itemPath>common/timer_id.h</itemPath>
+      <itemPath>common/timer_queue.cpp</itemPath>
+      <itemPath>common/timer_queue.h</itemPath>
+      <itemPath>common/timer_service.cpp</itemPath>
+      <itemPath>common/timer_service.h</itemPath>
+      <itemPath>common/transport_client.cpp</itemPath>
+      <itemPath>common/transport_client.h</itemPath>
+      <itemPath>common/util.cpp</itemPath>
+      <itemPath>common/util.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="httpclient" displayName="httpclient" projectFiles="true">
+      <itemPath>httpclient/asynchttpclient.cpp</itemPath>
+      <itemPath>httpclient/asynchttpclient.h</itemPath>
+      <itemPath>httpclient/httpclient.cpp</itemPath>
+      <itemPath>httpclient/httpclient.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="msgpush" displayName="msgpush" projectFiles="true">
+      <logicalFolder name="jsoncpp" displayName="jsoncpp" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <logicalFolder name="json" displayName="json" projectFiles="true">
+            <itemPath>msgpush/jsoncpp/include/json/autolink.h</itemPath>
+            <itemPath>msgpush/jsoncpp/include/json/config.h</itemPath>
+            <itemPath>msgpush/jsoncpp/include/json/features.h</itemPath>
+            <itemPath>msgpush/jsoncpp/include/json/forwards.h</itemPath>
+            <itemPath>msgpush/jsoncpp/include/json/json.h</itemPath>
+            <itemPath>msgpush/jsoncpp/include/json/reader.h</itemPath>
+            <itemPath>msgpush/jsoncpp/include/json/value.h</itemPath>
+            <itemPath>msgpush/jsoncpp/include/json/writer.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <itemPath>msgpush/jsoncpp/json_batchallocator.h</itemPath>
+        <itemPath>msgpush/jsoncpp/json_internalarray.inl</itemPath>
+        <itemPath>msgpush/jsoncpp/json_internalmap.inl</itemPath>
+        <itemPath>msgpush/jsoncpp/json_reader.cpp</itemPath>
+        <itemPath>msgpush/jsoncpp/json_value.cpp</itemPath>
+        <itemPath>msgpush/jsoncpp/json_valueiterator.inl</itemPath>
+        <itemPath>msgpush/jsoncpp/json_writer.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>msgpush/MessagePushMgr.cpp</itemPath>
+      <itemPath>msgpush/MessagePushMgr.h</itemPath>
+      <itemPath>msgpush/jwt.cpp</itemPath>
+      <itemPath>msgpush/jwt.h</itemPath>
+      <itemPath>msgpush/md5.cpp</itemPath>
+      <itemPath>msgpush/md5.h</itemPath>
+      <itemPath>msgpush/pmessage.cpp</itemPath>
+      <itemPath>msgpush/pmessage.h</itemPath>
+      <itemPath>msgpush/xg_url.cpp</itemPath>
+      <itemPath>msgpush/xg_url.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="muduo" displayName="muduo" projectFiles="true">
+      <logicalFolder name="base" displayName="base" projectFiles="true">
+        <itemPath>muduo/base/AsyncLogging.cc</itemPath>
+        <itemPath>muduo/base/AsyncLogging.h</itemPath>
+        <itemPath>muduo/base/Atomic.h</itemPath>
+        <itemPath>muduo/base/Condition.cc</itemPath>
+        <itemPath>muduo/base/Condition.h</itemPath>
+        <itemPath>muduo/base/Config.h</itemPath>
+        <itemPath>muduo/base/CountDownLatch.cc</itemPath>
+        <itemPath>muduo/base/CountDownLatch.h</itemPath>
+        <itemPath>muduo/base/CurrentThread.h</itemPath>
+        <itemPath>muduo/base/Exception.cc</itemPath>
+        <itemPath>muduo/base/Exception.h</itemPath>
+        <itemPath>muduo/base/LogFile.cc</itemPath>
+        <itemPath>muduo/base/LogFile.h</itemPath>
+        <itemPath>muduo/base/LogStream.cc</itemPath>
+        <itemPath>muduo/base/LogStream.h</itemPath>
+        <itemPath>muduo/base/Logging.cc</itemPath>
+        <itemPath>muduo/base/Logging.h</itemPath>
+        <itemPath>muduo/base/Mutex.h</itemPath>
+        <itemPath>muduo/base/StringPiece.h</itemPath>
+        <itemPath>muduo/base/Thread.cc</itemPath>
+        <itemPath>muduo/base/Thread.h</itemPath>
+        <itemPath>muduo/base/Thread_linux.h</itemPath>
+        <itemPath>muduo/base/Timestamp.cc</itemPath>
+        <itemPath>muduo/base/Timestamp.h</itemPath>
+        <itemPath>muduo/base/Timestamp_linux.h</itemPath>
+        <itemPath>muduo/base/Tls.h</itemPath>
+        <itemPath>muduo/base/Types.h</itemPath>
+        <itemPath>muduo/base/copyable.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="public" displayName="public" projectFiles="true">
+      <itemPath>public/CreditUDP.cpp</itemPath>
+      <itemPath>public/CreditUDP.h</itemPath>
+      <itemPath>public/DES.cpp</itemPath>
+      <itemPath>public/DES.h</itemPath>
+      <itemPath>public/GlobalOperation.cpp</itemPath>
+      <itemPath>public/GlobalOperation.h</itemPath>
+      <itemPath>public/IPCCMessage.cpp</itemPath>
+      <itemPath>public/IPCCMessage.h</itemPath>
+      <itemPath>public/MemLog.cpp</itemPath>
+      <itemPath>public/MemLog.h</itemPath>
+      <itemPath>public/Rijndael.cpp</itemPath>
+      <itemPath>public/Rijndael.h</itemPath>
+      <itemPath>public/SecretKey.h</itemPath>
+      <itemPath>public/ServerInfoDef.cpp</itemPath>
+      <itemPath>public/ServerInfoDef.h</itemPath>
+      <itemPath>public/Spliter.cpp</itemPath>
+      <itemPath>public/Spliter.h</itemPath>
+      <itemPath>public/StdAfx.cpp</itemPath>
+      <itemPath>public/StdAfx.h</itemPath>
+      <itemPath>public/UDPSocket.cpp</itemPath>
+      <itemPath>public/UDPSocket.h</itemPath>
+      <itemPath>public/base64.h</itemPath>
+      <itemPath>public/ini.cpp</itemPath>
+      <itemPath>public/ini.h</itemPath>
+      <itemPath>public/intdef.h</itemPath>
+      <itemPath>public/windefined.h</itemPath>
+      <itemPath>public/winhead.h</itemPath>
+      <itemPath>public/xmlParser.cpp</itemPath>
+      <itemPath>public/xmlParser.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+    </logicalFolder>
+    <itemPath>ACDAlgorithm.h</itemPath>
+    <itemPath>AgentInfo.cpp</itemPath>
+    <itemPath>AgentInfo.h</itemPath>
+    <itemPath>AgentMgr.cpp</itemPath>
+    <itemPath>AgentMgr.h</itemPath>
+    <itemPath>CClientInfo.cpp</itemPath>
+    <itemPath>CClientInfo.h</itemPath>
+    <itemPath>CClientMgr.cpp</itemPath>
+    <itemPath>CClientMgr.h</itemPath>
+    <itemPath>CallInfo.cpp</itemPath>
+    <itemPath>CallInfo.h</itemPath>
+    <itemPath>CallMgr.cpp</itemPath>
+    <itemPath>CallMgr.h</itemPath>
+    <itemPath>CorporationInfo.cpp</itemPath>
+    <itemPath>CorporationInfo.h</itemPath>
+    <itemPath>CorporationMgr.cpp</itemPath>
+    <itemPath>CorporationMgr.h</itemPath>
+    <itemPath>DepartmentInfo.cpp</itemPath>
+    <itemPath>DepartmentInfo.h</itemPath>
+    <itemPath>DepartmentMgr.cpp</itemPath>
+    <itemPath>DepartmentMgr.h</itemPath>
+    <itemPath>GlobalDefs.h</itemPath>
+    <itemPath>IpccMsgLogTrans.cpp</itemPath>
+    <itemPath>IpccMsgLogTrans.h</itemPath>
+    <itemPath>Log.cpp</itemPath>
+    <itemPath>Log.h</itemPath>
+    <itemPath>RedirectServer.cpp</itemPath>
+    <itemPath>RedirectServer.h</itemPath>
+    <itemPath>RedisClient.cpp</itemPath>
+    <itemPath>RedisClient.h</itemPath>
+    <itemPath>RedisConnectionPool.cpp</itemPath>
+    <itemPath>RedisConnectionPool.h</itemPath>
+    <itemPath>RedisServer_ACD.cpp</itemPath>
+    <itemPath>RedisServer_ACD.h</itemPath>
+    <itemPath>RegisterServer.cpp</itemPath>
+    <itemPath>RegisterServer.h</itemPath>
+    <itemPath>ServiceInfo.h</itemPath>
+    <itemPath>SplitString.cpp</itemPath>
+    <itemPath>SplitString.h</itemPath>
+    <itemPath>SynRedisClient.cpp</itemPath>
+    <itemPath>SynRedisClient.h</itemPath>
+    <itemPath>UserInfo.cpp</itemPath>
+    <itemPath>UserInfo.h</itemPath>
+    <itemPath>UserMgr.cpp</itemPath>
+    <itemPath>UserMgr.h</itemPath>
+    <itemPath>Utility.cpp</itemPath>
+    <itemPath>Utility.h</itemPath>
+    <itemPath>call.cpp</itemPath>
+    <itemPath>call.h</itemPath>
+    <itemPath>getid.h</itemPath>
+    <itemPath>main.cpp</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>common</Elem>
+    <Elem>public</Elem>
+    <Elem>muduo</Elem>
+    <Elem>httpclient</Elem>
+    <Elem>msgpush</Elem>
+  </sourceRootList>
+  <projectmakefile>Linux-Makefile.mk</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>./</pElem>
+            <pElem>msgpush/jsoncpp/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>/home/xuyc/netbean_bin/wipcc_acdserver</output>
+          <linkerDynSerch>
+            <pElem>/usr/local/curl_nossl/lib</pElem>
+          </linkerDynSerch>
+          <commandLine>-static -lc -static-libgcc -static-libstdc++ -lpthread /usr/local/curl_nghttp2/lib/libcurl.a /usr/local/nghttp2/lib/libnghttp2.a /usr/local/lib/libhiredis.a /usr/local/ssl/lib/libssl.a /usr/local/ssl/lib/libcrypto.a /usr/local/lib/libboost_system.a /usr/local/lib/libboost_filesystem.a /usr/local/lib/libboost_date_time.a /usr/local/lib/libboost_chrono.a /usr/local/lib/libboost_thread.a /usr/local/lib/libboost_locale.a -Wl,-ldl</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="ACDAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AgentInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AgentInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AgentMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AgentMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CClientInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CClientInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CClientMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CClientMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CallInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CallInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CallMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CallMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CorporationInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CorporationInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CorporationMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CorporationMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DepartmentInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DepartmentInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DepartmentMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DepartmentMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GlobalDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpccMsgLogTrans.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpccMsgLogTrans.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedirectServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedirectServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedisClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedisClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedisConnectionPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedisConnectionPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedisServer_ACD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedisServer_ACD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RegisterServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RegisterServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ServiceInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SplitString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SplitString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SynRedisClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SynRedisClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utility.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="call.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="call.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/Resolve.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/blocking_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/boost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/callbacks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/condition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/count_down_latch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/count_down_latch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/creditudp_bundle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/creditudp_poller.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/creditudp_poller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/creditudp_transport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/creditudp_transport.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/current_thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/endpoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/fixed_str.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ib_common_defs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipcc_message.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipcc_message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_dump.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_dump.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_loop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_loop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_mapping.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_target.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_target.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/log_init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/log_init.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/on_off_switch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/server_addr_pack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer_id.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer_queue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/timer_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer_service.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/timer_service.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/transport_client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/transport_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="getid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="httpclient/asynchttpclient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="httpclient/asynchttpclient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="httpclient/httpclient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="httpclient/httpclient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/MessagePushMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/MessagePushMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/autolink.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/features.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/forwards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/json.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/reader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/value.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/writer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_batchallocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_internalarray.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_internalmap.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_reader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_valueiterator.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_writer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jwt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jwt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/md5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/md5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/pmessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/pmessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/xg_url.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/xg_url.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/AsyncLogging.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/AsyncLogging.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Atomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Condition.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Condition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/CountDownLatch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/CountDownLatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/CurrentThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Exception.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/LogFile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/LogFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/LogStream.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/LogStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Logging.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Logging.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/StringPiece.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Thread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Thread_linux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Timestamp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Timestamp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Timestamp_linux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Tls.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/copyable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/CreditUDP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/CreditUDP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/DES.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/DES.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/GlobalOperation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/GlobalOperation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/IPCCMessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/IPCCMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/MemLog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/MemLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/Rijndael.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/Rijndael.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/SecretKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/ServerInfoDef.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/ServerInfoDef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/Spliter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/Spliter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/StdAfx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/StdAfx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/UDPSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/UDPSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/ini.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/ini.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/intdef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/windefined.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/winhead.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/xmlParser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/xmlParser.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="ACDAlgorithm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AgentInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AgentInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="AgentMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="AgentMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CClientInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CClientInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CClientMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CClientMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CallInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CallInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CallMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CallMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CorporationInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CorporationInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CorporationMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CorporationMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DepartmentInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DepartmentInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="DepartmentMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DepartmentMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GlobalDefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="IpccMsgLogTrans.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="IpccMsgLogTrans.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedirectServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedirectServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedisClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedisClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedisConnectionPool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedisConnectionPool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RedisServer_ACD.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RedisServer_ACD.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="RegisterServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="RegisterServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ServiceInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SplitString.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SplitString.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SynRedisClient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SynRedisClient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserInfo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserInfo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="UserMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="UserMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Utility.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Utility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="call.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="call.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/Resolve.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/blocking_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/boost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/callbacks.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/condition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/count_down_latch.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/count_down_latch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/creditudp_bundle.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/creditudp_poller.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/creditudp_poller.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/creditudp_transport.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/creditudp_transport.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/current_thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/endpoint.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/fixed_str.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ib_common_defs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipcc_message.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipcc_message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_dump.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_dump.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_loop.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_loop.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_mapping.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_target.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/ipccmsg_target.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/log_init.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/log_init.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/on_off_switch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/server_addr_pack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/timer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer_id.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer_queue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/timer_queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/timer_service.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/timer_service.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/transport_client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/transport_client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="common/util.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="common/util.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="getid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="httpclient/asynchttpclient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="httpclient/asynchttpclient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="httpclient/httpclient.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="httpclient/httpclient.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/MessagePushMgr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/MessagePushMgr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/autolink.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/features.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/forwards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/json.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/reader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/value.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/include/json/writer.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_batchallocator.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_internalarray.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_internalmap.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_reader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_valueiterator.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="msgpush/jsoncpp/json_writer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jwt.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/jwt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/md5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/md5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/pmessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/pmessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="msgpush/xg_url.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="msgpush/xg_url.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/AsyncLogging.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/AsyncLogging.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Atomic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Condition.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Condition.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/CountDownLatch.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/CountDownLatch.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/CurrentThread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Exception.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Exception.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/LogFile.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/LogFile.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/LogStream.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/LogStream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Logging.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Logging.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/StringPiece.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Thread.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Thread_linux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Timestamp.cc" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="muduo/base/Timestamp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Timestamp_linux.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Tls.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/Types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="muduo/base/copyable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/CreditUDP.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/CreditUDP.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/DES.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/DES.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/GlobalOperation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/GlobalOperation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/IPCCMessage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/IPCCMessage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/MemLog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/MemLog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/Rijndael.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/Rijndael.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/SecretKey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/ServerInfoDef.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/ServerInfoDef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/Spliter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/Spliter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/StdAfx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/StdAfx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/UDPSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/UDPSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/ini.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/ini.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/intdef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/windefined.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/winhead.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="public/xmlParser.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="public/xmlParser.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
